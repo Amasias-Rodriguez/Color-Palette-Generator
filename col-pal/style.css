@@ -13,11 +13,11 @@ body{
 }
 
 .container{
-    border: 1px solid;
     width: min(500px, 98%);
     text-align: center;
     padding: 36px;
     border-radius: 16px;
+    background-color: #fff;
 }
 
 label{
@@ -38,5 +38,20 @@ button{
     border-radius: 5px;
     padding: 8px 16px;
     margin-left: 10px;
+    cursor: pointer;
+}
+
+.color-palette{
+    margin-top: 20px;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.color-box{
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    border-radius: 5px;
     cursor: pointer;
 }
